@@ -1,0 +1,218 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+
+
+.card-wrapper{
+    margin: auto;
+    width: 50%;
+    padding: 26mm;
+    /* background-image: radial-gradient(gray); */
+}
+
+.card-background{
+    background-color: rgb(206, 204, 204);
+    height: 104mm;
+    width: 133%;
+    transform: rotate(-17deg);
+    position: absolute;
+    left: -60mm;
+    top: 78mm;
+}
+
+
+.front-card{
+    height:100mm;
+    width: 150mm;
+    /* border: 1px solid black; */
+    border-radius: 5mm;
+    overflow: hidden;
+    position: relative;
+    background-color: white;
+    /* text-align: center; */
+
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.card-content{
+      text-align: center;
+      margin-top: 15mm;
+      /* position: absolute; */
+
+}
+
+.org-name{
+    position: absolute;
+    top: 5mm;
+    left: 15mm;
+    margin: auto;
+    font-size: 18pt;
+}
+.org-logo-img{
+    height: 40mm;
+    /* font-size: 21mm; */
+    /* border-radius: 8mm; */
+    /* margin-bottom: 3mm; */
+}
+
+
+.company{
+    position: absolute;
+    top: 38mm;
+    left: 60mm;
+    font-size: 25pt;
+    font-weight: bold;
+    letter-spacing: 5pt;
+
+    /* text-align: center; */
+}
+
+
+.party-contact{
+    position: absolute;
+    bottom: 0mm;
+    padding: 5mm;
+    right: 0mm;
+}
+.left-bottom{
+
+    height: 21mm;
+    width: 47mm;
+    transform: skew(-24deg);
+    border-bottom-right-radius: 20px;
+    background: rgb(1, 32, 63);
+    top: 60mm;
+    left: -4mm;
+    position: absolute;
+    overflow: hidden;
+}
+
+.right-bottom{
+    height: 21mm;
+    width: 118mm;
+    transform: skew(-23deg);
+    border-top-left-radius: 20px;
+    background: rgb(255, 177, 27);
+    top: 60mm;
+    left: 52mm;
+    position: absolute;
+    text-align: center;
+}
+
+.right-content{
+    top: 66mm;
+    left:76mm ;
+    position: absolute;
+    font-size: 13pt;
+    word-spacing: 2mm;
+}
+.party-name{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 28pt;
+}
+
+.back-card{
+    height:100mm;
+    width: 150mm;
+    /* border: 1px solid black; */
+    border-radius: 5mm;
+    overflow: hidden;
+    position: relative;
+    margin-top: 13mm;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+}
+.left-top{
+    height: 24mm;
+    width: 68mm;
+    transform: skew(-24deg);
+    border-bottom-right-radius: 20px;
+    background: rgb(255, 177, 27);
+    top: 9mm;
+    left: -8mm;
+    position: absolute;
+    overflow: hidden;
+}
+
+.qr-code{
+    /* font-size: 26mm; */
+    position: absolute;
+    right: 16mm;
+    top:7mm ;
+    padding-right: 50px;
+}
+.qr-code img{
+    height: 26mm;
+    position: absolute;
+
+}
+
+.left-content{
+    top: 13mm;
+    position: absolute;
+    overflow: hidden;
+    left: 2mm;
+}
+
+.right-bottom2{
+    height: 47mm;
+    width: 112.44mm;
+    transform: skew(-34deg);
+    border-top-left-radius: 40px;
+    background: rgb(1, 32, 63);
+    top: 40mm;
+    left: 54mm;
+    position: absolute;
+}
+.bottom{
+    height: 16mm;
+    width: 160mm;
+    transform: skew(-23deg);
+    border-top-left-radius: 20px;
+    background: rgb(255, 177, 27);
+    top: 85mm;
+    left: 20mm;
+    position: absolute;
+}
+.bottom-content{
+    top: 90mm;
+    left: 50mm;
+    word-spacing: 15px; 
+    position: absolute;
+    
+}
+
+.front-content{
+    position: absolute;
+}
+p{
+    font-weight: bold;
+}
+
+.right-content2{
+    position: absolute;
+    top: 42mm;
+    left: 63mm;
+    color: white;
+    line-height: 7mm;
+    display: flex;
+    text-decoration: none;
+    padding: 5mm;
+    text-align: right;
+
+}
+.icon ul{
+    list-style: none;
+    color: black;
+    
+}
+.icon{
+    background: white;
+    padding: 2mm;
+    border-radius: 7mm;
+    margin-left:5mm ;
+}
