@@ -1,0 +1,388 @@
+body {
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  margin: 10mm;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.card-wrapper {
+  position: relative;
+  width: 88.9mm;
+  height: 50.8mm;
+  background-color: #c5c2c2;
+  border: 1px solid #ccc;
+  overflow: hidden;
+}
+
+.card1-background {
+  /* Customize background styling as needed */
+  background-color: #ffffff;
+  height: 100%;
+}
+
+.container1 {
+  position: absolute;
+  height: 50.8mm;
+  width: 88.9mm;
+  top: 0mm;
+  background-color: rgb(255, 255, 255);
+  border-radius: 1mm;
+  overflow: hidden;
+}
+
+.box1 {
+  position: absolute;
+  height: 40mm;
+  width: 8mm;
+  background-color: #0095ff;
+  bottom: -9mm;
+  margin: 0mm;
+  transform: rotate(-45deg);
+  box-shadow: 1.4mm 3mm #596366a1;
+}
+
+.box2 {
+  position: absolute;
+  height: 20mm;
+  width: 20mm;
+  background-color: #2cb2f6;
+  bottom: -14mm;
+  left: -10mm;
+  transform: rotate(45deg);
+  margin: 0mm;
+}
+
+.box3 {
+  position: absolute;
+  height: 10mm;
+  width: 85mm;
+  background-color: #000000;
+  bottom: -1mm;
+  left: 19mm;
+  margin: 0mm;
+  transform: skewX(45deg);
+}
+
+.box4 {
+  position: absolute;
+  height: 12mm;
+  width: 8mm;
+  background-color: #000000;
+  bottom: 0mm;
+  left: 14.5mm;
+  margin: 0mm;
+  transform: skewX(45deg);
+}
+
+.box5 {
+  position: absolute;
+  height: 9mm;
+  width: 85mm;
+  background-color: #2cb2f6;
+  bottom: 3mm;
+  left: 50mm;
+  margin: 0mm;
+  transform: skewX(45deg);
+}
+
+.box6 {
+  position: absolute;
+  height: 10mm;
+  width: 10mm;
+  top: 26mm;
+  left: 13mm;
+  margin: 0mm;
+  border: 0.5mm solid #2cb2f6;
+}
+
+.box7 {
+  position: absolute;
+  width: 13mm;
+  top: 15mm;
+  left: 13mm;
+  border-bottom: 0.6mm solid #2cb2f6;
+}
+
+.box8 {
+  position: absolute;
+  width: 5mm;
+  height: 5mm;
+  top: 26mm;
+  right: 5mm;
+  background-color: #2cb2f6;
+}
+
+.box9 {
+  position: absolute;
+  width: 5mm;
+  height: 5mm;
+  top: 32.5mm;
+  right: 5mm;
+  background-color: #2cb2f6;
+}
+
+.container2 {
+  position: absolute;
+  height: 50.8mm;
+  width: 88.9mm;
+  bottom: 0mm;
+  background-color: rgb(255, 255, 255);
+  border-radius: 1mm;
+  overflow: hidden;
+}
+
+.box10 {
+  position: absolute;
+  height: 40mm;
+  width: 8mm;
+  background-color: #0095ff;
+  bottom: -9mm;
+  margin: 0mm;
+  transform: rotate(-135deg);
+  box-shadow: 1.4mm 3mm #596366a1;
+  right: 0mm;
+}
+
+.box11 {
+  position: absolute;
+  height: 20mm;
+  width: 20mm;
+  background-color: #2cb2f6;
+  bottom: -14mm;
+  right: -10mm;
+  transform: rotate(45deg);
+  margin: 0mm;
+}
+
+.box12 {
+  position: absolute;
+  height: 10mm;
+  width: 85mm;
+  background-color: #000000;
+  bottom: -1mm;
+  right: 19mm;
+  margin: 0mm;
+  transform: skewX(-45deg);
+}
+
+.box13 {
+  position: absolute;
+  height: 12mm;
+  width: 8mm;
+  background-color: #000000;
+  bottom: 0mm;
+  right: 14.5mm;
+  margin: 0mm;
+  transform: skewX(-45deg);
+}
+
+.box14 {
+  position: absolute;
+  height: 9mm;
+  width: 85mm;
+  background-color: #0095ff;
+  bottom: 3mm;
+  right: 50mm;
+  margin: 0mm;
+  transform: skewX(-45deg);
+}
+
+.box15 {
+  position: absolute;
+  width: 5mm;
+  height: 5mm;
+  top: 30mm;
+  left: 5mm;
+  background-color: #2cb2f6;
+}
+
+.logo1 {
+  position: absolute;
+  background-image: url("../IMG/phone.png");
+  background-repeat: no-repeat;
+  background-size: 90%;
+  height: 5mm;
+  width: 5mm;
+  top: 26.2mm;
+  right: 4.7mm;
+}
+
+.logo2 {
+  position: absolute;
+  background-image: url("../IMG/mail.png");
+  background-repeat: no-repeat;
+  background-size: 90%;
+  height: 5mm;
+  width: 5mm;
+  top: 32.7mm;
+  right: 4.7mm;
+}
+
+.logo3 {
+  position: absolute;
+  background-image: url("../IMG/mail.png");
+  background-repeat: no-repeat;
+  background-size: 90%;
+  height: 5mm;
+  width: 5mm;
+  top: 30.3mm;
+  left: 5.2mm;
+}
+
+
+
+.card1-content {
+  color: #333;
+}
+
+.party-name {
+  position: absolute;
+  font-style: inherit;
+  width: 168pt;
+  font-size: 1.7em;
+  color: grey;
+  top: 6mm;
+  left: 3mm;
+}
+
+.party-name strong b {
+  color: #000000;
+}
+
+.party-job-title {
+  font-family: serif;
+  font-optical-sizing: auto;
+  font-size: 1.4em;
+  margin-top: -1pt;
+  position: absolute;
+  color: gray;
+  top: 11mm;
+  left: 13mm;
+
+}
+
+.qr-img {
+  height: 9mm;
+  width: 9mm;
+  position: absolute;
+}
+
+.qr-code {
+  top: 75pt;
+  left: 38.24pt;
+  position: absolute;
+}
+
+.company {
+  font-weight: 700;
+  font-size: 1.0em;
+  font-family: "Roboto Slab", serif;
+  font-size: 1.3em;
+  margin-top: -1pt;
+  position: absolute;
+  display: none;
+}
+
+.party-phone {
+  font-weight: bolder;
+  font-family: "Roboto Slab", serif;
+  font-size: 0.8em;
+  position: absolute;
+  bottom: 46pt;
+  right: 32pt;
+  color: #a8a5a5;
+}
+
+.party-phone p {
+  margin-top: -3mm;
+}
+
+.party-email {
+  font-weight: bolder;
+  font-family: "Roboto Slab", serif;
+  font-size: 0.8em;
+  position: absolute;
+  bottom: 28.5pt;
+  right: 32pt;
+  color: #a8a5a5;
+}
+
+.party-email p {
+  margin-top: -3mm;
+}
+
+.card2-background {
+  background-color: #fa8f0d;
+  height: 100%;
+}
+
+.card2-content {
+  color: #000000;
+}
+
+.org-logo-img {
+  position: relative;
+  top: -133pt;
+  left: 0pt;
+  height: 10mm;
+  width: 20mm;
+}
+
+.org-name {
+  line-height: 94%;
+  position: relative;
+  top: -16pt;
+  left: 3pt;
+  font-style: oblique;
+  font-size: 13pt;
+}
+
+.org-address {
+  position: absolute;
+  top: 82pt;
+  left: 46px;
+  font-style: normal;
+  font-size: 6pt;
+  color: #484848;
+}
+
+.org-email {
+  position: absolute;
+  top: 48pt;
+  left: 81pt;
+  font-style: normal;
+  font-size: 10pt;
+}
+
+.org-email p strong {
+  font-size: 17pt;
+  color: black;
+}
+
+.org-email p {
+  margin-top: -5mm;
+  color: #a8a5a5;
+}
+
+.org-phone {
+  position: relative;
+  top: 27pt;
+  left: 3px;
+  font-style: normal;
+  font-size: 9pt;
+  display: none;
+}
+
+.org-website {
+  position: absolute;
+  bottom: 16pt;
+  left: 9pt;
+  font-style: normal;
+  font-size: 8pt;
+}
