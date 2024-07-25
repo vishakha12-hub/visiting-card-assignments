@@ -39,7 +39,7 @@ body {
     height: 68mm;
     background: radial-gradient(circle, rgb(103 179 206) 30%, rgb(26 25 24) 100%, rgba(243, 230, 213, 1) 100%);
     position: absolute;
-	top: 42mm;
+	  top: 42mm;
     left: -53mm;
     transform: rotate(162deg);
 	}
@@ -90,6 +90,7 @@ body {
                         position: absolute;
                         top: 46mm;
                         transform: rotate(90deg);
+                        z-index: 2;
                         box-shadow: 25px 0px 20px -4px rgba(6,247,247,0.45);
                     }
 
@@ -100,6 +101,7 @@ body {
                         background: linear-gradient(to right, black, #056392, aqua, #056392, black);
                         position: absolute;
                         top: 46mm;
+                        z-index: 2;
                         transform: rotate(90deg);
                         box-shadow: 25px 0px 20px -4px rgba(6,247,247,0.45);
                     }
@@ -111,6 +113,7 @@ body {
                         background: linear-gradient(to right, black, #056392, aqua, #056392, black);
                         position: absolute;
                         top: 117mm;
+                        z-index: 2;
                         transform: rotate(90deg);
                         box-shadow: 25px 0px 20px -4px rgba(6,247,247,0.45);
                     }
@@ -120,8 +123,9 @@ body {
                         font-size: 17mm;
                         position: absolute;
                         left: 62mm;
-                        top: 21mm;
+                        top: 24mm;
                         width: 39mm;
+                
                         height: 12mm;
                         z-index: 1;
                     }
@@ -232,9 +236,9 @@ body {
   .card2-content
   {
     position: absolute;
-    top: 50%;
-    left: 66%;
-    transform: translate(-30%, -50%);
+    top: 38%;
+    left: 49%;
+    transform: translate(-32%, -50%);
     text-align: center;
     color: #ffffff;
     z-index: 2;
@@ -242,51 +246,52 @@ body {
 
   
 
-  .org-name
+   .org-name
   {
-    line-height: 94%;
-    text-align-last: inherit;
-    position: relative;
+    
+    
+    position: sticky;
     top: -105pt;
-    left: 23pt;
+    left: -800pt;
     font-style: oblique;
     font-size: 7pt;
   }
 
   .org-address
   {
-    position: absolute;
+    position: sticky;
     top: -89pt;
-    left: 61px;
+    left: -800pt;
     font-style: normal;
     font-size: 7pt;
+    width: 44mm;
   }
 
 
 
-  .org-email
+   .org-email
   {
-    position: absolute;
+    position: sticky;
     top: -23pt;
-    left: 52pt;
+    left: -800pt;
     font-style: normal;
     font-size: 6pt;
   }
   
-  .org-phone
+   .org-phone
   {
-    position: relative;
+    position: sticky;
     top: -38pt;
-    left: 28px;
+    left: -800pt;
     font-style: normal;
     font-size: 6pt;
   }
 
-  .org-website
+  .card2-content .org-website
   {
-    position: relative;
+    position: sticky;
     top: -27pt;
-    left: 23pt;
+    left: 50mm;
     font-style: normal;
     font-size: 9pt;
   }
