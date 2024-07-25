@@ -1,7 +1,7 @@
 body {
   font-family: 'Arial', sans-serif;
   display: flex;
-  background-color: #f0f0f0;
+  background-color: #817e7e !important;
   font-family: Arial, sans-serif;
   margin: 10mm;
   justify-content: center;
@@ -15,18 +15,12 @@ body {
   position: relative;
   width: 88.9mm;
   height: 50.8mm;
-  background-color: #c5c2c2;
+  background-color: #ada5a5;
   border: 1px solid #ccc;
   overflow: hidden;
 }
 
 .card1-background {
-  /* Customize background styling as needed */
-  background-color: #ffffff;
-  height: 100%;
-}
-
-.container1 {
   position: absolute;
   height: 50.8mm;
   width: 88.9mm;
@@ -35,7 +29,6 @@ body {
   border-radius: 1mm;
   overflow: hidden;
 }
-
 .box1 {
   position: absolute;
   height: 40mm;
@@ -125,16 +118,6 @@ body {
   top: 32.5mm;
   right: 5mm;
   background-color: #2cb2f6;
-}
-
-.container2 {
-  position: absolute;
-  height: 50.8mm;
-  width: 88.9mm;
-  bottom: 0mm;
-  background-color: rgb(255, 255, 255);
-  border-radius: 1mm;
-  overflow: hidden;
 }
 
 .box10 {
@@ -318,8 +301,13 @@ body {
 }
 
 .card2-background {
-  background-color: #fa8f0d;
-  height: 100%;
+  position: absolute;
+  height: 50.8mm;
+  width: 88.9mm;
+  bottom: 0mm;
+  background-color: rgb(255, 255, 255);
+  border-radius: 1mm;
+  overflow: hidden;
 }
 
 .card2-content {
