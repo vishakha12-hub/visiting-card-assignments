@@ -28,6 +28,17 @@ body {
 
 }
 
+.box{
+  position: absolute;
+    top: 185mm;
+    left: 125mm;
+    width: 160mm;
+    height: 170mm;
+    background-color: #ffffff;
+    
+    z-index: 2;
+}
+
 .card1-background {
     /* Customize background styling as needed */
     background-color: linear-gradient(to bottom left, #ffffff 0%, #000000 100%) ;
@@ -236,12 +247,12 @@ body {
   .card2-content
   {
     position: absolute;
-    top: 38%;
-    left: 49%;
-    transform: translate(-32%, -50%);
+    top: 57mm;
+    left: 183mm;
+    
     text-align: center;
     color: #ffffff;
-    z-index: 2;
+    z-index: 3;
   }
 
   
