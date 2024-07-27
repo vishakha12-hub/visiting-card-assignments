@@ -80,13 +80,14 @@ body {
   .company
   {
     position: absolute;
-    left: 150mm;
-    top: 111mm;
+    left: -1mm;
+    top: 30mm;
     color: antiquewhite;
-    font-size: 22pt;
-  }
+    font-size: 11pt;
 
-  .card2-background
+  }
+  
+    .card2-background
   {
     background-color: #ffffff;
     height: 100%;
