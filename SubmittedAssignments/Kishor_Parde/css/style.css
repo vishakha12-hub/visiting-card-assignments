@@ -72,7 +72,7 @@ body {
     font-optical-sizing: auto;
     font-size: 12pt;
     position: absolute;
-    bottom: -18mm;
+    bottom: -12.5mm;
     left: -5mm;
     color: #ffffff;
   }
@@ -113,7 +113,7 @@ body {
  {
   font-weight: bolder;
     font-family: "Roboto Slab", serif;
-    font-size: 1.3em;
+    font-size: 7pt;
     margin-top: 16pt;
     position: relative;
     top: 0pt;
@@ -133,7 +133,7 @@ body {
   .party-phone-lable
   {
     font-family: "Roboto Slab", serif;
-      font-size: 1.1em;
+      font-size: 9pt;
       margin-top: -1pt;
       padding-left: 3pt;
       
@@ -143,7 +143,7 @@ body {
   {
     font-weight: normal;
       font-family: "Roboto Slab", serif;
-      font-size: 1.1em;
+      font-size: 8pt;
       margin-top: -1pt;
       
   }
@@ -151,7 +151,7 @@ body {
   .party-email-lable
   {
     font-family: "Roboto Slab", serif;
-      font-size: 1.1em;
+      font-size: 9pt;
       margin-top: -1pt;
       padding-left: 3pt;
   }
@@ -160,7 +160,7 @@ body {
   {
     font-weight: normal;
     font-family: "Roboto Slab", serif;
-    font-size: 1.1em;
+    font-size: 8pt;
     margin-top: -1pt;
     
   }
@@ -273,8 +273,10 @@ body {
     left: 25mm;
     font-style: normal;
     font-size: 5pt;
-    width: 64mm;
+    width: 56mm;
     line-height: 0pt;
+    word-spacing: 0.2pt;
+    
   }
 
   .org-email
