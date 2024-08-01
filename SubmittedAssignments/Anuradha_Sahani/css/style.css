@@ -1,0 +1,322 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.card-wrapper {
+   position: relative;
+    width: 88.9mm;
+    height: 50.8mm;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    border-radius: 19px;
+}
+
+.card1-background {
+    /* Customize background styling as needed */
+    background-color: #ffffff;
+    height: 100%;
+}
+
+.left-big{
+	width: 83mm;
+    border-top: 190pt solid #f48b1d;
+    border-right: 186pt;
+    position: absolute;
+    transform: rotate(-119deg);
+    left: -48mm;
+    top: 13.5mm;
+    box-shadow: -15px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+  .left-small{
+  width: 128px;
+    height: 65px;
+    border-top: 9pt solid #e7e5e8;
+    position: absolute;
+    left: -7.5mm;
+    bottom: 5mm;
+    transform: rotate(61deg);
+    border-radius: 7px;
+    top: 8mm;
+  }
+   .left1{
+ width: 123px;
+    height: 288px;
+    border-top: 9pt solid #e7e5e8;
+    position: absolute;
+    left: -16.5mm;
+    bottom: -38mm;
+    transform: rotate(61deg);
+    border-radius: 7px;
+    top: 21.5mm;
+	   }
+   
+   .left2{
+   width: 203px;
+    height: 110px;
+    border-top: 20pt solid #414143;
+    position: absolute;
+    left: 34mm;
+    bottom: -21mm;
+    transform: skewX(-21deg);
+    border-radius: 3px;
+   }
+   
+    .left3{
+    width: 243px;
+    height: 111px;
+    border-left: 178pt solid #262F38;
+    border-top: 175pt solid transparent;
+    border-bottom: 25pt solid transparent;
+    position: absolute;
+    left: -30mm;
+    bottom: -8mm;
+    transform: rotate(316deg);
+    border-radius: 76px;
+  }
+   .left4{
+  width: 187px;
+    height: 110px;
+    border-top: 20pt solid #f38b1d;
+    position: absolute;
+    left: 36mm;
+    bottom: -19.5mm;
+    transform: skewX(-21deg);
+    border-radius: 3px;
+   }
+
+.card1-content
+{
+    margin-left: 23px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: 7pt;
+    transform: translate(-30%, -50%);
+    text-align: start;
+    color: #333;
+}
+
+  .party-name
+  {
+   font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: inherit;
+    width: 168pt;
+    font-size: 1.9em;
+    font-weight: bold;
+    position: relative;
+    left: 9mm;
+    top: -11mm;
+	color:#e28a27;
+  }
+
+  .party-job-title
+  {
+      font-family: serif;
+    font-optical-sizing: auto;
+    font-size: 1.2em;
+    margin-top: -1pt;
+    position: absolute;
+    left: 25mm;
+    top: -3.5mm;
+  }
+
+  .qr-img
+  {
+ max-width: 10%;
+    height: 10pxS;
+    position: absolute;
+    left: -1mm;
+    top: -7mm;
+  }
+
+  .qr-code
+  {
+   top: 48pt;
+    left: -63pt;
+    position: absolute;
+    width: 382px;
+  }
+  
+  .company
+  {
+  font-weight: 700;
+    font-size: 1.0em;
+    font-family: "Roboto Slab", serif;
+    font-size: 1.3em;
+    margin-top: -1pt;
+    position: absolute;
+    top: 22mm;
+    color: white;
+    left: -25mm;
+  }
+
+ .party-phone
+ {
+font-weight: bolder;
+    font-family: "Roboto Slab", serif;
+    font-size: 0.8em;
+    margin-top: 16pt;
+    position: relative;
+    top: -28pt;
+    left: 48pt;
+ }
+
+ .party-email
+ {
+ font-weight: bolder;
+    font-family: "Roboto Slab", serif;
+    font-size: 0.8em;
+    position: relative;
+    top: -24pt;
+    left: 24pt;
+ }
+
+  .party-phone-lable
+  {
+    font-family: "Roboto Slab", serif;
+      font-size: 1.1em;
+      margin-top: -1pt;
+      padding-left: 3pt;
+      
+  }
+  
+  .party-phone-number
+  {
+    font-weight: normal;
+      font-family: "Roboto Slab", serif;
+      font-size: 1.1em;
+      margin-top: -1pt;
+      
+  }
+  
+  .party-email-lable
+  {
+    font-family: "Roboto Slab", serif;
+      font-size: 1.1em;
+      margin-top: -1pt;
+      padding-left: 3pt;
+  }
+  
+  .party-email-address
+  {
+    font-weight: normal;
+    font-family: "Roboto Slab", serif;
+    font-size: 1.1em;
+    margin-top: -1pt;
+    
+  }
+
+  .card2-background
+  {
+    background-color: white;
+    height: 100%;
+  }
+
+  .Right-big
+  {
+    width: 0;
+    height: 0;
+    border-top: 145pt solid #f19c34;
+    border-left: 110pt solid transparent;
+    position: absolute;
+    right: 0;
+  }
+
+  .Right-mid
+  {
+    width: 0;
+    height: 0;
+    border-right: 54pt solid #262F38;
+    border-top: 75pt solid transparent;
+    border-bottom: 70pt solid transparent;
+    position: absolute;
+    right: 0;
+  }
+
+  .Right-small
+  {
+    width: 0;
+    height: 0;
+    border-top: 56pt solid #414143;
+    border-left: 45pt solid transparent;
+    border-right: 40pt solid transparent;
+    position: absolute;
+    right: 0;
+  }
+
+  .card2-content
+  {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-30%, -50%);
+    text-align: center;
+    color: #ffffff;
+  }
+
+  .org-logo-img
+  {
+ position: relative;
+    top: -25pt;
+    left: 98pt;
+    height: 6mm;
+    width: 24mm;
+  }
+  
+
+  .org-name
+  {
+  line-height: 94%;
+    text-align-last: inherit;
+    position: relative;
+    top: -22pt;
+    left: 90pt;
+    font-style: oblique;
+    font-size: 7pt;
+    color: black;
+  }
+
+  .org-address
+  {
+position: absolute;
+    top: 13pt;
+    left: 145px;
+    font-style: normal;
+    font-size: 6.4pt;
+    color: black;
+    right: -35mm;
+  }
+
+  .org-email
+  {
+  position: absolute;
+    top: 41pt;
+    left: 51pt;
+    font-style: normal;
+    font-size: 7pt;
+    color: black;
+    right: -60mm;
+  }
+  
+  .org-phone
+  {
+position: relative;
+    top: 27pt;
+    left: 150px;
+    font-style: normal;
+    font-size: 7pt;
+    color: black;
+  }
+
+  .org-website
+  {
+   position: relative;
+    top: 36pt;
+    left: 103pt;
+    font-style: normal;
+    font-size: 9pt;
+  }
