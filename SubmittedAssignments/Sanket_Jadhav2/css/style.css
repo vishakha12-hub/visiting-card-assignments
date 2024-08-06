@@ -193,6 +193,7 @@ body {
     position: relative;
     top: 77pt;
     left: 68pt;
+    color: #ffffff;
  }
 
  .party-email
@@ -202,7 +203,8 @@ body {
     font-size: 9px;
     position: relative;
     top: 48pt;
-    left: 69pt;
+    color: #ffffff;
+    left: 76pt;
  }
 
   .party-phone-lable
