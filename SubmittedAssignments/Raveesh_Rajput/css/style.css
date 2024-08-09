@@ -1,0 +1,271 @@
+ /* frontside card design */
+.card-wrapper {
+    left: 60mm;
+    top: 2mm;
+    width: 90mm;
+    height: 55mm;
+    position: relative;
+}
+/* card1 background design */
+.card1-background {
+    left: 0mm;
+    top: 0mm;
+    width: 90mm;
+    height: 55mm;
+    position: absolute;
+    background-image: url("./img/watermarkimg.jpg");
+}
+.card1-content {
+    position: absolute;
+    left: -5mm;
+    top: 5mm;
+    width: 80mm;
+    height: 45mm;
+    margin-left: 10mm;
+    margin-right: 10mm;
+    /* background-color: red;  */
+}
+.party-name {
+    position: absolute;
+    left: 0mm;
+    top: 18mm;
+    font-size: 5mm;
+    font-weight: bold;
+}
+.line {
+    position: absolute;
+    left: 35mm;
+    top: 22mm;
+    width: 50mm;
+    height: 1mm;
+    background-color: #00ADEF;
+}
+.party-job-title {
+    position: absolute;
+    left: 0mm;
+    top: 20mm;
+    width: 36mm;
+    height: 10mm;
+}
+.company {
+    position: absolute;
+    left: 60mm;
+    top: 5mm;
+    font-weight: bold;
+}
+.company-logo {
+    left: 54mm;
+    top: -3mm;
+    position: absolute;
+    width: 26mm;
+    height: 8mm;
+}
+.orgLogo {
+    position: absolute;
+    width: 26mm;
+    height: 8mm;
+}
+
+.qr-code img{
+    left: 0mm;
+    top: -3mm;
+    position: absolute;
+    width: 15mm;
+    height: 15mm;
+}
+.contact-info {
+    left: 0mm;
+    top: 30mm;
+    width: 80mm;
+    height: 20mm;
+    position: absolute;
+}
+.contact-info .party-phone{
+    left: 0mm;
+    top: 10mm;
+    width: 37mm;
+    height: 10mm;
+    position: absolute;
+}
+.contact-info .phone-icon {
+    left: 12mm;
+    top: 5mm;
+    width: 8mm;
+    background-color: #00ADEF;
+    height: 8mm;
+    border-radius: 50%;
+    position: absolute;
+}
+.phone-icon1 {
+    position: absolute;
+    left: 2mm;
+    top: 2mm;
+}
+.contact-info .party-email{
+    left: 41mm;
+    top: 8mm;
+    width: 35mm;
+    height: 10mm;
+    font-size: 5mm;
+    position: absolute;
+}
+.contact-info .email-icon {
+    left: 59mm;
+    top: 5mm;
+    width: 8mm;
+    background-color: #00ADEF;
+    height: 8mm;
+    border-radius: 50%;
+    position: absolute;
+}
+.email-icon1 {
+    position: absolute;
+    left: 2mm;
+    top: 2mm;
+}
+
+/* card-backside design */
+.card-wrapper {
+    left: 60mm;
+    top: 0mm;
+    width: 90mm;
+    height: 55mm;
+    position: relative;
+    background-image: url("./img/watermarkimg.jpg");
+}
+.card-wrapper .bottombox {
+    left: 0mm;
+    top: 45mm;
+    width: 90mm;
+    height: 10mm;
+    position: absolute;
+    background-color: #00ADEF;
+    text-align: center;
+}
+.bottombox .content1 {
+    left: 21mm;
+    top: 2mm;
+    position: absolute;
+    color: white;
+    text-align: center;
+}
+.bottombox .content2 {
+    left: 41mm;
+    top: 2mm;
+    position: absolute;
+    width: 29mm;
+    color: #cfcfcf;
+    text-align: center;
+}
+.card2-content {
+    position: absolute;
+    left: 5mm;
+    top: 5mm;
+    width: 80mm;
+    height: 40mm;
+    /* background-color: blueviolet; */
+}
+.org-logo {
+    left: 27mm;
+    top: -3mm;
+    position: absolute;
+    width: 26mm;
+    height: 8mm;
+ }
+.line1 {
+    position: absolute;
+    left: -5mm;
+    top: 0mm;
+    width: 27mm;
+    height: 1mm;
+    background-color: #00ADEF;
+}
+.line2 {
+    position: absolute;
+    left: 58mm;
+    top: 0mm;
+    width: 27mm;
+    height: 1mm;
+    background-color: #00ADEF;
+} 
+.org-name {
+    position: absolute;
+    left: 0mm;
+    top: -22mm;
+    font-size: 4mm;
+    width: 80mm;
+    height: 6mm;
+    font-weight: bold;
+    text-align: center;
+}
+.org-address {
+    position: absolute;
+    left: 0mm;
+    top: -18mm;
+    width: 80mm;
+    font-size: 3mm;
+    height: 15mm;
+    text-align: center;
+}
+.party-phone1{
+    left: 20mm;
+    top: -12mm;
+    width: 37mm;
+    height: 10mm;
+    position: absolute;
+}
+.phone-icon01 {
+    left: 14mm;
+    top: -8mm;
+    width: 5mm;
+    background-color: #00ADEF;
+    height: 5mm;
+    font-size: 5mm;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+}
+.phone-icon2 {
+    position: absolute;
+    left: 2mm;
+    top: 2mm;
+}
+.party-email1 {
+    left: 20mm;
+    top: -5mm;
+    width: 35mm;
+    height: 10mm;
+    font-size: 4mm;
+    position: absolute;
+}
+.email-icon01 {
+    left: 14mm;
+    top: -1mm;
+    width: 5mm;
+    background-color: #00ADEF;
+    height: 5mm;
+    font-size: 5mm;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+}
+.email-icon2 {
+    position: absolute;
+    left: 2mm;
+    top: 2mm;
+}
+.org-website {
+    position: absolute;
+    left: 20mm;
+    top: 5mm;
+    font-size: 4mm;
+}
+.org-website-icon {
+    position: absolute;
+    left: -6mm;
+    top: 0mm;
+    width: 5mm;
+    height: 5mm;
+    background-color: #00ADEF;
+    border-radius: 50%;
+}
