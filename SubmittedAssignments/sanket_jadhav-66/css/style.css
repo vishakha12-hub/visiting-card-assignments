@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  background-color: #e6e7e9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  letter-spacing: 1pt;
+}
+
+.card-wrapper {
+  /* border: 1pt solid red; */
+  padding: 2mm;
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 15mm;
+}
+
+.card-background,
+.card-content {
+  height: 200pt;
+  width: 350pt;
+  /* border: 1pt solid black; */
+}
+
+.name {
+  font-size: 15pt;
+  font-weight: 600;
+}
+
+.job-title {
+  font-weight: 500;
+  font-size: 10pt;
+  color: #646869;
+  margin-bottom: 2mm;
+}
+
+.card-background {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background: linear-gradient(
+    150deg,
+    #ffffff 35%,
+    #eef7fc,
+    #eff8fd,
+    #e3f6fd,
+    #e5f6fb,
+    #def4fc,
+    #d2edfa,
+    #d9f0fd,
+    #cbeaf7
+  );
+
+  box-shadow: 5mm 5mm 5mm 3mm #cccccc;
+}
+
+.logo,
+.top-logo {
+  /* height: 40mm; */
+  width: 40mm;
+  display: block;
+}
+
+/* Styling lower card background */
+.rectright,
+.rectleft,
+.rectbtm,
+.tri1,
+.tri2 {
+  position: absolute;
+}
+
+.rectright,
+.rectleft {
+  top: 34mm;
+  height: 3pt;
+  width: 34mm;
+  background: linear-gradient(#3bbdf2, #41a7d2, #c3f2ff);
+}
+
+.rectright {
+  left: 0;
+}
+
+.rectleft {
+  right: 0;
+}
+
+.rectbtm {
+  bottom: 0;
+  background-color: #00adef;
+  height: 15mm;
+  width: 349pt;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5pt;
+  text-transform: uppercase;
+  font-size: 8pt;
+  color: #69d6ff;
+  padding-bottom: 8pt;
+}
+
+.rectbtm .bold {
+  font-weight: 500;
+  color: #d0ffff;
+  font-size: 12pt;
+}
+
+/* Card Content */
+.card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background: linear-gradient(
+    -150deg,
+    #ffffff 40%,
+    #eef7fc,
+    #eff8fd,
+    #e3f6fd,
+    #e5f6fb,
+    #def4fc,
+    #d2edfa,
+    #d9f0fd,
+    #cbeaf7
+  );
+  padding: 8mm 10pt 0 8mm;
+  position: relative;
+  box-shadow: 5mm 5mm 5mm 3mm #cccccc;
+}
+
+.top-logo {
+  margin-bottom: -20pt;
+  align-self: flex-end;
+}
+
+/* styling top card */
+.tri1 {
+  position: absolute;
+  top: 104pt;
+  right: 0;
+  height: 3pt;
+  width: 70mm;
+  background: linear-gradient(#d5f1fe, #46a9dc, #80d5fe);
+}
+
+/* top card logos */
+
+.contact-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.icon {
+  height: 20pt;
+  width: 20pt;
+  background-color: #05acf0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  padding: 10pt;
+}
+
+.phone,
+.email,
+.address {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3pt;
+}
