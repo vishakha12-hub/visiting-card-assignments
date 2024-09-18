@@ -1,11 +1,13 @@
- /* frontside card design */
+ 
 .card-wrapper {
     left: 60mm;
-    top: 2mm;
+    top: 20mm;
     width: 90mm;
     height: 55mm;
     position: relative;
+    background-image: url("/img/watermarkimg.jpg");
 }
+/* frontside card design */
 /* card1 background design */
 .card1-background {
     left: 0mm;
@@ -13,7 +15,7 @@
     width: 90mm;
     height: 55mm;
     position: absolute;
-    background-image: url("./img/watermarkimg.jpg");
+
 }
 .card1-content {
     position: absolute;
@@ -125,19 +127,19 @@
 }
 
 /* card-backside design */
-.card-wrapper {
+/* .card-wrapper {
     left: 60mm;
     top: 0mm;
     width: 90mm;
     height: 55mm;
     position: relative;
     background-image: url("./img/watermarkimg.jpg");
-}
+} */
 .card-wrapper .bottombox {
     left: 0mm;
-    top: 45mm;
+    top: 47mm;
     width: 90mm;
-    height: 10mm;
+    height: 8mm;
     position: absolute;
     background-color: #00ADEF;
     text-align: center;
@@ -163,7 +165,6 @@
     top: 5mm;
     width: 80mm;
     height: 40mm;
-    /* background-color: blueviolet; */
 }
 .org-logo {
     left: 27mm;
@@ -191,7 +192,7 @@
 .org-name {
     position: absolute;
     left: 0mm;
-    top: -22mm;
+    top: -25mm;
     font-size: 4mm;
     width: 80mm;
     height: 6mm;
@@ -201,26 +202,27 @@
 .org-address {
     position: absolute;
     left: 0mm;
-    top: -18mm;
+    top: -20mm;
     width: 80mm;
     font-size: 3mm;
     height: 15mm;
     text-align: center;
 }
 .party-phone1{
-    left: 20mm;
-    top: -12mm;
-    width: 37mm;
-    height: 10mm;
+    left: 25mm;
+    bottom: 30mm;
+    width: 35mm;
+    height: 5mm;
+    /* text-align: center; */
     position: absolute;
 }
 .phone-icon01 {
-    left: 14mm;
-    top: -8mm;
-    width: 5mm;
+    left: 15mm;
+    top: -12mm;
+    width: 7mm;
     background-color: #00ADEF;
-    height: 5mm;
-    font-size: 5mm;
+    height: 7mm;
+    font-size: 6.2mm;
     text-align: center;
     border-radius: 50%;
     position: absolute;
@@ -231,23 +233,23 @@
     top: 2mm;
 }
 .party-email1 {
-    left: 20mm;
-    top: -5mm;
+    left: 25mm;
+    bottom: 17mm;
     width: 35mm;
     height: 10mm;
     font-size: 4mm;
     position: absolute;
 }
 .email-icon01 {
-    left: 14mm;
-    top: -1mm;
-    width: 5mm;
+    position: absolute;
+    left: 15mm;
+    bottom: 17.5mm;
+    width: 7mm;
     background-color: #00ADEF;
-    height: 5mm;
-    font-size: 5mm;
+    height: 7mm;
+    font-size: 6.3mm;
     text-align: center;
     border-radius: 50%;
-    position: absolute;
 }
 .email-icon2 {
     position: absolute;
@@ -256,16 +258,24 @@
 }
 .org-website {
     position: absolute;
-    left: 20mm;
+    left: 25mm;
     top: 5mm;
+    width: 60mm;
+    height: 6mm;
     font-size: 4mm;
 }
 .org-website-icon {
     position: absolute;
-    left: -6mm;
-    top: 0mm;
-    width: 5mm;
-    height: 5mm;
+    left: -10mm;
+    bottom: 0mm;
+    width: 7mm;
+    height: 7mm;
     background-color: #00ADEF;
     border-radius: 50%;
+}
+
+.org-website-icon img {
+    position: absolute;
+    left: 1.5mm;
+    top: 1.5mm;
 }
