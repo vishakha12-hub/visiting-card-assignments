@@ -1,11 +1,11 @@
  
 .card-wrapper {
     left: 60mm;
-    top: 20mm;
+    top: 15mm;
     width: 90mm;
     height: 55mm;
     position: relative;
-    background-image: url("/img/watermarkimg.jpg");
+    background-image: url(/img/watermarkimg.jpg);
 }
 /* frontside card design */
 /* card1 background design */
@@ -126,15 +126,6 @@
     top: 2mm;
 }
 
-/* card-backside design */
-/* .card-wrapper {
-    left: 60mm;
-    top: 0mm;
-    width: 90mm;
-    height: 55mm;
-    position: relative;
-    background-image: url("./img/watermarkimg.jpg");
-} */
 .card-wrapper .bottombox {
     left: 0mm;
     top: 47mm;
@@ -213,7 +204,6 @@
     bottom: 30mm;
     width: 35mm;
     height: 5mm;
-    /* text-align: center; */
     position: absolute;
 }
 .phone-icon01 {
