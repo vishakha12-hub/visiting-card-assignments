@@ -1,6 +1,6 @@
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: 0mm;
+    padding: 0mm;
     font-family: sans-serif;
 }
 
@@ -16,30 +16,29 @@
    position: relative;
 }
 
-.card-background{
+/* .card-background{
    background-color: rgb(206, 204, 204);
     height: 105mm;
-    width: 133%;
+    width: 133mm;
     transform: rotate(-17deg);
     position: absolute;
     left: -7mm;
     top: 97mm;
-}
+} */
 
 
 .card1-background{
     height:100mm;
     width: 150mm;
-    /* border: 1px solid black; */
 	top:34mm;
 	left:28mm;
-    border-radius: 5mm;
+    border-radius: 14.1pt;
     overflow: hidden;
     position: relative;
     background-color: #FFFFFF;
     /* text-align: center; */
 
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0mm 5.02mm 10.0mm, rgba(0, 0, 0, 0.22) 0mm 3.9mm 3.1mm;
 }
 
 .card1-content{
@@ -75,7 +74,7 @@
     height: 21mm;
     width: 118mm;
     transform: skew(-23deg);
-    border-top-left-radius: 5.29mm;
+    border-top-left-radius: 14.99pt;
     background: rgb(255, 177, 27);
     top: 60mm;
     left: 52mm;
@@ -123,18 +122,18 @@
     width: 150mm;
     top: -151mm;
     left: 30mm;
-    border-radius: 5mm;
+    border-radius: 14.17mm;
     overflow: hidden;
     position: relative;
     margin-top: 13mm;
     background-color: #FFFFFF;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0mm 5.0mm 10.05mm, rgba(0, 0, 0, 0.22) 0mm 3.9mm 3.1mm;
 }
 .right-big{
     height: 24mm;
     width: 68mm;
     transform: skew(-24deg);
-    border-bottom-right-radius: 5.29mm;
+    border-bottom-right-radius: 14.9pt;
     background: rgb(255, 177, 27);
     top: 9mm;
     left: -8mm;
@@ -161,7 +160,7 @@
     height: 47mm;
     width: 112.44mm;
     transform: skew(-34deg);
-    border-top-left-radius: 10.58mm;
+    border-top-left-radius: 29.9pt;
     background: rgb(1, 32, 63);
     top: 40mm;
     left: 54mm;
@@ -171,7 +170,7 @@
     height: 16mm;
     width: 160mm;
     transform: skew(-23deg);
-    border-top-left-radius: 5.29mm;
+    border-top-left-radius: 14.9pt;
     background: rgb(255, 177, 27);
     top: 85mm;
     left: 20mm;
@@ -180,7 +179,7 @@
 .company2{
     top: -61mm;
     left: 111mm;
-    word-spacing: 15px;
+    word-spacing: 3.9mm;
     position: absolute;
 
     
@@ -266,6 +265,6 @@
 .icon{
     background: white;
     padding: 2mm;
-    border-radius: 7mm;
+    border-radius: 19.8pt;
     margin-left: 49mm;
 }
