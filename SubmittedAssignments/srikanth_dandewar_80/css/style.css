@@ -8,7 +8,7 @@ body {
     top:10mm;
     left:50mm;
     background-color: rgb(0, 0, 0);
-    border: 2px solid #ccc;
+    border: 1.5pt solid #ccc;
     overflow: hidden;
     z-index: 1;
 }
@@ -42,13 +42,13 @@ body {
     width: 88.9mm;
     height: 50.8mm;
     background-color: #00253a;
-    border: 2px solid #00253a;
-    border-radius: 15px;
+    border: 1.5pt  solid #00253a;
+    border-radius: 11.25pt;
     overflow: hidden;
     left:50mm;
     top:10mm;
-    box-shadow: 0px 25px 20px -20px rgba(0,0,0,0.45),
-    -25px 0px 20px -20px rgba(0,0,0,0.45);
+    box-shadow: 0pt 18.75pt 15pt -15pt rgba(0,0,0,0.45),
+    -15pt 0pt 15pt -15pt rgba(0,0,0,0.45);
     z-index: 2;
     
   }
@@ -74,15 +74,14 @@ body {
   }
   .card1-content
  {
-    margin-left: 23px;
-    position: absolute;
-    top: 38mm;
-    left: 70mm;
-    margin-top: 7pt;
-    transform: translate(-30%, -50%);
-    text-align: start;
-    color:white;
-    z-index: 3;
+  margin-left: 6.08mm;
+  position: absolute;
+  top: 22mm;
+  left: 58mm;
+  margin-top: 4.46mm;
+  text-align: start;
+  color: white;
+  z-index: 3;
  }
 .party-name
 {
@@ -90,8 +89,8 @@ body {
   font-optical-sizing: auto;
   font-weight: 100;
   font-style: inherit;
-  width: 168pt;
-  font-size: 17pt;
+  width: 44.45mm;
+  font-size: 15pt;
   font-weight: bold; 
   z-index: 3;
 }
@@ -112,10 +111,10 @@ body {
     top:24mm;
   }
 .org-logo{
-    position:relative;
-    top:-29mm;
-    left:33mm;
-    z-index: 4;
+  position: relative;
+  top: -28mm;
+  left: 24mm;
+  z-index: 4;
 }
 .party-phone
  {
@@ -134,12 +133,12 @@ body {
   width: 88.9mm;
   height: 50.8mm;
   background-color: #f6f9fa;
-  border: 2px solid #f7f9fa;
-  border-radius: 15px;
+  border: 1.5pt solid #f7f9fa;
+  border-radius: 11.25pt;
   overflow: hidden;
   left: 137mm;
   top: 114mm;
-  box-shadow: 0px 25px 20px -20px rgba(0, 0, 0, 0.45), -25px 0px 20px -20px rgba(0, 0, 0, 0.45);
+  box-shadow: 0pt 18.75pt 15pt -15pt rgba(0, 0, 0, 0.45), -25px 0px 20px -20px rgba(0, 0, 0, 0.45);
   z-index: 4;
 }
 
@@ -178,7 +177,7 @@ body {
   width: 1mm;
   left: 193mm;
   top: 131mm;
-  box-shadow: 1px 0px 2px rgb(153, 156, 156) inset;
+  box-shadow: 0.75pt 0pt 1.5pt rgb(153, 156, 156) inset;
   z-index: 5;
 }
 .org-name{
@@ -186,7 +185,7 @@ body {
   top: 123mm;
   left: 145mm;
   font-weight: bold;
-  font-size: 13px;
+  font-size: 9.75pt;
   z-index: 4;
 }
 .org-address
