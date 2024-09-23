@@ -31,12 +31,12 @@ body {
   /* border: 1pt solid black; */
 }
 
-.name {
+.party-name {
   font-size: 15pt;
   font-weight: 600;
 }
 
-.job-title {
+.party-job-title {
   font-weight: 500;
   font-size: 10pt;
   color: #646869;
