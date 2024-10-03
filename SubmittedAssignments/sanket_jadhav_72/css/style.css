@@ -112,6 +112,14 @@ body {
     font-size: 6pt;
     font-family: cub;
 }
+.org-phone {
+    position: absolute;
+    top: 1mm;
+    right: 2mm;
+    font-size: 6pt;
+    font-family: cub;
+    
+}
 .org-website {
     position: absolute;
     top: 40mm;
