@@ -4,18 +4,17 @@
     font-family: sans-serif;
 }
 
-
-
-.card-wrapper{
- 
- margin: auto;
+center{
+    padding: 40mm;
+}
+.card-wrapper{ 
+  margin: auto;
   left: auto;
   top: auto;
   width: 210mm;
   height: 297mm;
-   position: relative;
+  position: relative;
 }
-
 .card-background{
    background-color: rgb(206, 204, 204);
     height: 105mm;
@@ -25,8 +24,6 @@
     left: -7mm;
     top: 97mm;
 }
-
-
 .card1-background{
     height:100mm;
     width: 150mm;
@@ -36,8 +33,6 @@
     overflow: hidden;
     position: relative;
     background-color: #FFFFFF;
-    /* text-align: center; */
-
     box-shadow: rgba(0, 0, 0, 0.3) 0mm 5.0270833333mm 10.054166667mm, rgba(0, 0, 0, 0.22) 0mm 3.96875mm 3.175mm;
 }
 
@@ -104,11 +99,12 @@
 
   }
 
-.company{
+.company p{
    top: 102mm;
     left: 125mm;
     position: absolute;
     font-size: 13pt;
+    font-weight: bold;
     word-spacing: 2mm;
 }
 #name{
@@ -180,12 +176,11 @@
     top: -61mm;
     left: 111mm;
     word-spacing: 3.96875mm;
-    position: absolute;
-
-    
+    font-weight: bold;
+    position: absolute;    
 }
-.org-name
-  {
+
+.org-name{
     line-height: 94%;
     text-align-last: inherit;
     position: relative;
@@ -194,15 +189,14 @@
     font-style: oblique;
     font-size: 14pt;
     color: black;
-  }
+}
   
 .org-logo-img {
    position: relative;
     top: -180.26mm;
     left: -23.28mm;
     height: 9mm;
-
-  }
+}
   
 .front-content{
     position: absolute;
@@ -222,10 +216,8 @@
     text-decoration: none;
     padding: 5mm;
     text-align: right;
-
 }
-.org-address
-  {
+.org-address{
     position: absolute;
     top: 8.29mm;
     left: -10.01mm;
@@ -234,30 +226,26 @@
     text-align: left;
     font-size: 7pt;
 }
-  .org-email
-  {
+.org-email{
    position: absolute;
     top: 20.10mm;
     left: 12.7mm;
     font-weight: bold;
     font-size: 9pt;
-  }
-   .org-phone
-  {
+}
+.org-phone{
    position: absolute;
     top: 13.40mm;
     left: 14.02mm;
     font-weight: bold;
     font-size: 9pt;
-  }
-   .org-website
-  {
+}
+.org-website{
    position: absolute;
     top: 27.86mm;
     left: 11.99mm;
     font-weight: bold;
     font-size: 9pt;
-
 }
 .icon ul{
     list-style: none;
