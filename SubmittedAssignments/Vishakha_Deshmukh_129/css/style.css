@@ -1,0 +1,460 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.card-wrapper {
+    position: relative;
+    width: 180mm;
+    height: 80mm;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    overflow: hidden;
+}
+
+.card1-background {
+    /* Customize background styling as needed */
+    background-color: #ffffff;
+    height: 100%;
+}
+
+.line1{
+  position: absolute;
+    left: 60mm;
+    height: 16mm;
+    width: 60mm;
+    transform: skewX(0deg);
+    background-color:#F37E45;
+  }
+  .line2{
+    position: absolute;
+    left: 0mm;
+    height: 3mm;
+    width: 182mm;
+    transform: skewX(0deg);
+    background-color: #00537E;
+  }
+  .line3{
+    position: absolute;
+    left: 14mm;
+    height: 3mm;
+    width: 14mm;
+    transform: skewX(0deg);
+    background-color: #F37E45 !important;
+}
+.line4{
+  position: absolute;
+    left: 46mm;
+    height: 3mm;
+    width: 14mm;
+    transform: skewX(0deg);
+    background-color: #F37E45 !important;
+}
+.line5{
+  position: absolute;
+  left: 120mm;
+  height: 3mm;
+  width: 14mm;
+  transform: skewX(0deg);
+  background-color: #F37E45 !important;
+}
+.line6{
+  position: absolute;
+    left: 151mm;
+    height: 3mm;
+    width: 14mm;
+    transform: skewX(0deg);
+    background-color: #F37E45 !important;
+}
+.line7{
+  position: absolute;
+  left: 0mm;
+  top:77mm;
+  height: 3mm;
+  width: 182mm;
+  transform: skewX(0deg);
+  background-color: #00537E;
+}
+.line8{
+  position: absolute;
+    left: 14mm;
+    top:77mm;
+    height: 3mm;
+    width: 14mm;
+    transform: skewX(0deg);
+    background-color: #F37E45 !important;
+} 
+.line9{
+  position: absolute;
+    left: 46mm;
+    top:77mm;
+    height: 3mm;
+    width: 14mm;
+    transform: skewX(0deg);
+    background-color: #F37E45 !important;
+}
+.line10{
+  position: absolute;
+  left: 120mm;
+  top:77mm;
+  height: 3mm;
+  width: 14mm;
+  transform: skewX(0deg);
+  background-color: #F37E45 !important;
+}
+.line11{
+  position: absolute;
+  left: 151mm;
+  top:77mm;
+  height: 3mm;
+  width: 14mm;
+  transform: skewX(0deg);
+  background-color: #F37E45 !important;
+}
+.line12{
+  position: absolute;
+    left: 0mm;
+    top: 47mm;
+    height: 0.7mm;
+    width: 182mm;
+    transform: skewX(0deg);
+    background-color: #C0C0C0;
+}
+
+.card1-content
+{
+    margin-left: 23px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: 7pt;
+    transform: translate(-30%, -50%);
+    text-align: start;
+    color: #333;
+}
+
+  .party-name
+  {
+    position: relative;
+    font-family: "Lexend Exa", serif;
+    font-optical-sizing: auto;
+    color: #00537E;
+    font-style: normal;
+    left: -10mm;
+    top: -5mm;
+    font-optical-sizing: 20;
+    font-weight: 100;
+    font-style: inherit;
+    width: 200pt;
+    font-size: 35px;
+    font-weight: bold;
+    letter-spacing: -5px;
+
+
+  }
+
+  .party-job-title
+  {
+    position: relative;
+    font-family: "Lexend Exa", serif;
+    font-optical-sizing: auto;
+    color:#F37E45;
+    font-style: normal;
+    left: -11mm;
+    top: -7mm;
+    font-optical-sizing: 20;
+    font-weight: 100;
+    font-style: inherit;
+    width: 200pt;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: -1px;
+  }
+
+  .location-img
+  {
+    position: absolute;
+    max-width: 14%;
+    height: auto;
+    left: -56mm;
+    top: 29mm;
+  }
+
+  .mail-img
+  {
+    position: absolute;
+    max-width: 20%;
+    height: auto;
+    left: 3mm;
+    top: 29mm;
+  }
+  .call-img
+  {
+    position: absolute;
+    max-width: 12%;
+    height: auto;
+    left: 70mm;
+    top: 29mm;
+  }
+  
+  .company
+  {font-weight: 700;
+    position: relative;
+    font-size: 12px;
+    font-family: "Roboto Slab", serif;
+    top: -6mm;
+    left: 3mm;
+    
+  }
+
+ .location-info{
+  font-weight: 700;
+    position: relative;
+    font-size: 11px;
+    font-family: "Roboto Slab", serif;
+    top: 15mm;
+    left: -66mm;
+    color: #00537E;
+ }
+ .location-info1{
+  font-weight: 700;
+    position: relative;
+    font-size: 11px;
+    font-family: "Roboto Slab", serif;
+    top: 15mm;
+    left: -57mm;
+    color: #00537E;
+ }
+ .mail-info{
+  font-weight: 700;
+    position: relative;
+    font-size: 11px;
+    font-family: "Roboto Slab", serif;
+    top: 8mm;
+    left: -4mm;
+    color: #00537E;
+ }
+ .call-info{
+  font-weight: 700;
+    position: relative;
+    font-size: 12px;
+    font-family: "Roboto Slab", serif;
+    top: 4mm;
+    left: 66mm;
+    color: #00537E;
+ }
+
+  .card2-background
+  {
+    background-color:white;
+    height: 100%;
+  }
+  .back-line1{
+    position: absolute;
+    left: 0mm;
+    top: 3mm;
+    height: 20mm;
+    width: 180mm;
+    transform: skewX(0deg);
+    background-color: #00537E;
+  }
+.back-line2{
+  position: absolute;
+  left: 14mm;
+  height: 3mm;
+  width: 14mm;
+  transform: skewX(0deg);
+  background-color: #F37E45 !important;
+}
+.back-line3{
+  position: absolute;
+  left: 46mm;
+  height: 3mm;
+  width: 14mm;
+  transform: skewX(0deg);
+  background-color: #F37E45 !important;
+}
+.back-line4{
+  position: absolute;
+  left: 120mm;
+  height: 3mm;
+  width: 14mm;
+  transform: skewX(0deg);
+  background-color: #F37E45 !important;
+}
+.back-line5{
+  position: absolute;
+  left: 151mm;
+  height: 3mm;
+  width: 14mm;
+  transform: skewX(0deg);
+  background-color: #F37E45 !important;
+}
+.back-line6{
+  position: absolute;
+  left: 151mm;
+  top:76.5mm;
+  height: 3.5mm;
+  width: 14mm;
+  transform: skewX(0deg);
+  background-color: #F37E45 !important;
+}
+.back-line7{
+  position: absolute;
+  left: 0mm;
+  bottom: 3mm;
+  height: 20mm;
+  width: 180mm;
+  transform: skewX(0deg);
+  background-color: #00537E;
+}
+.back-line8{
+  position: absolute;
+    left: 14mm;
+    top: 76.5mm;
+    height: 3.5mm;
+    width: 14mm;
+    transform: skewX(0deg);
+    background-color: #F37E45 !important;
+}
+
+.back-line9{
+  position: absolute;
+  left: 46mm;
+  top:76.5mm;
+  height: 3.5mm;
+  width: 14mm;
+  transform: skewX(0deg);
+  background-color: #F37E45 !important;
+}
+.back-line10{
+  position: absolute;
+  left: 120mm;
+  top:76.5mm;
+  height: 3.5mm;
+  width: 14mm;
+  transform: skewX(0deg);
+  background-color: #F37E45 !important;
+}
+.back-line11{
+  position: absolute;
+    left: 60mm;
+    top: 22.5mm;
+    height: 34.5mm;
+    width: 0.7mm;
+    transform: skewX(180deg);
+    background-color:#C0C0C0 !important;
+}
+.box{
+  position: absolute;
+    left: 82mm;
+    top: 30.5mm;
+    height: 16mm;
+    width: 16mm;
+    transform: rotate(203deg);
+    background-color: #F37E45 !important;
+}
+  .box-line1{
+    position: absolute;
+    left: 92mm;
+    top: 41.5mm;
+    height: 13mm;
+    width: 0.9mm;
+    transform: rotate(203deg);
+    background-color: white !important;
+  }
+.box-line2{
+  position: absolute;
+  left: 90.5mm;
+  top: 40.5mm;
+  height: 13mm;
+  width: 0.9mm;
+  transform: rotate(203deg);
+  background-color: white !important;
+  }
+.box-line3{
+  position: absolute;
+  left: 88.9mm;
+  top: 39.9mm;
+  height: 13mm;
+  width: 0.9mm;
+  transform: rotate(203deg);
+  background-color: white !important;
+}
+.box-line4{
+  position: absolute;
+    left: 85.8mm;
+    top: 27.9mm;
+    height: 8mm;
+    width: 0.9mm;
+    transform: rotate(203deg);
+    background-color: white !important;
+}
+.box-line5{
+  position: absolute;
+  left: 87.4mm;
+  top: 28.9mm;
+  height: 7.7mm;
+  width: 0.9mm;
+  transform: rotate(203deg);
+  background-color: white !important;
+}
+.box-line6{
+  position: absolute;
+  left: 88.9mm;
+  top: 29.8mm;
+  height: 7.7mm;
+  width: 0.9mm;
+  transform: rotate(203deg);
+  background-color: white !important;
+}
+  .card2-content
+  {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-30%, -50%);
+    text-align: center;
+    color: #ffffff;
+  }
+
+.org-logo-img
+  {
+    position: relative;
+    top: 26pt;
+    left: -52pt;
+  }
+
+  .org-name
+  {
+    position: relative;
+    font-family: "Lexend Exa", serif;
+    font-optical-sizing: auto;
+    color: #00537E;
+    font-style: normal;
+    left: 79mm;
+    top: -13mm;
+    font-optical-sizing: 20;
+    font-weight: 100;
+    font-style: inherit;
+    width: 200pt;
+    font-size: 37px;
+    font-weight: bold;
+    letter-spacing: -5px;
+    
+  }
+.content{
+  position: relative;
+    font-family: "Lexend Exa", serif;
+    font-optical-sizing: auto;
+    color: #F37E45;
+    font-style: normal;
+    left: 84mm;
+    top: -15mm;
+    font-optical-sizing: 20;
+    font-weight: 100;
+    width: 200pt;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: -1px;
+}
+  
